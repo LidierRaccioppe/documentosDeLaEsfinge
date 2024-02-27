@@ -32,6 +32,7 @@ Listas Desordenadas
 
 * Lista Simple
 * Otro elemento de la lista
+
  * con subniveles
  * muy facilemente
 
@@ -91,6 +92,45 @@ El parrafo tiene un enlace a la pagina principal de `Daniel Castelao`_.
 .. _Daniel Castelao: https://www.danielcastelao.org
 
 Enlaces internos
-````
+````````````````
 Puedo hacer referencias con una etiqueta colocada arriba con :ref:`nivelSecciones`.
+
+
+Tablas
+^^^^^^
+
++----------------------------+-----------+-----------+-----------+
+|Cabecera fila 1 , columna 1 | Cabecera2 | Cabecera3 | Cabecera4 |
++============================+===========+===========+===========+
+|Contenido fila 1, columna 1 | Columna 2 | Columna 3 | Columna 4 |
++----------------------------+-----------+-----------+-----------+
+|Contenido fila 2, columna 1 | Columna 2 | Columna 3 | Columna 4 |
++----------------------------+-----------+-----------+-----------+
+
+Otra forma mas facil.
+
+========= ======== ========= ========= =========
+Lunes     Martes   Miercoles Jueves    Viernes
+========= ======== ========= ========= =========
+Libre     DI       PMDM      Libre     Libre
+DI        DI       PMDM      Libre     Libre
+DI        DI       PMDM      Libre     Libre
+DI        Libre    Libre     Libre     Libre
+Descanso  Descanso Descanso  Descanso  Descanso
+SXE       Libre    Libre     Libre     Libre
+SXE       Libre    Libre     Libre     Libre
+SXE       Libre    Libre     Libre     Libre
+========= ======== ========= ========= =========
+
+
+Imagenes
+^^^^^^^^
+
+Ahora la imagen giu.png que esta en source/static/giu.png
+
+.. image:: _static/giu.png
+   :width: 200px
+   :height: 200px
+   :scale: 50 %
+   :alt: Imagen de giu
 

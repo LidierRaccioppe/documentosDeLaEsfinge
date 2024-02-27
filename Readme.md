@@ -38,3 +38,11 @@ entre los dos puntos de la primera linea añadir debajo los nombres de las clase
 mi caso es `funciones` y `conexionBD`
 
 Añadir l
+
+Para hacer una especie de indixacion se usa el siguiente comando 
+
+`sphinx-apidoc -o source ./source`
+
+Para se que creen los archivos se usa el siguiente comando
+
+`sphinx-build source build`

@@ -28,7 +28,7 @@ añadir `import os` al inicio del archivo.
 
 añadir `import sys` al inicio del archivo.
 
-añadir `sys.path.insert(0, os.path.abspath('.'))` al inicio del archivo.
+añadir `sys.path.insert(0, os.path.abspath('.'))` al inicio del archivo. Para poder obtener la posición del archivo.
 
 añadir `extensions = ['sphinx.ext.autodoc']` al inicio del archivo.
 
@@ -37,12 +37,16 @@ En la carpeta de `source` se configurara el archivo `index.rst` para que tenga l
 entre los dos puntos de la primera linea añadir debajo los nombres de las clases que quieres hacer su documentación, en 
 mi caso es `funciones` y `conexionBD`
 
-Añadir l
+### Indexación
 
 Para hacer una especie de indixacion se usa el siguiente comando 
 
 `sphinx-apidoc -o source ./source`
 
+Tener en cuenta que siempre que se agregue algun archivo o alteracion en el index o config se debe de volver a hacer la 
+indexacion.
+
+## Creación de Archivos
 Para se que creen los archivos se usa el siguiente comando
 
 `sphinx-build source build`

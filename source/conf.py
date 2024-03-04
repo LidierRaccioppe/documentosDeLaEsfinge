@@ -15,7 +15,7 @@ author = 'Maximo'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.autodoc"]
+extensions = ["sphinx.ext.autodoc","sphinx.ext.intersphinx","sphinx.ext.viewcode", "sphinx.ext.autosummary"]
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -27,3 +27,6 @@ language = 'es'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+
+# mapeo
+intersphinx_mapping = {'https://docs.python.org/': None}

@@ -3,9 +3,9 @@ Cabecera
 
 
 Parrafos
-----
+--------
 
-Para escribir paráfos solo tenemos que escribir sin marcar. Si queremos remarcar con *cursiva*. La **negrita**es con
+Para escribir paráfos solo tenemos que escribir sin marcar. Si queremos remarcar con *cursiva*. La **negrita** es con
 doble asterisco. Para ejemplos de codigo las dobles comillas ``print("Hola Mundo")``.
 
 * No puede estar submetidos
@@ -24,11 +24,12 @@ Los distintos niveles de seccion se escriben de la siguiente forma:
 * " para parrafos.
 
 Listas
-----
+------
+
 Las listas se marcan con *.
 
 Listas Desordenadas
-^^^^
+^^^^^^^^^^^^^^^^^^^
 
 * Lista Simple
 * Otro elemento de la lista
@@ -38,6 +39,7 @@ Listas Desordenadas
 
 Listas Ordenadas
 ^^^^
+
 1. Primer elemento.
 2. Segundo elemento.
 
@@ -48,7 +50,7 @@ Listas Ordenadas
 #. Ordenada
 
 Listas de definiciones
-^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 
 Termino (primera linea de texto)
  Definción del termino, que tiene que estar tabulado
@@ -58,7 +60,7 @@ Siguiente termino
  Con su definición.
 
 Bloques Literales
-^^^^
+^^^^^^^^^^^^^^^^^
 
 Despues de un texto normal, podemos dejar un parrafo con un ejemplo de codigo::
 
@@ -72,7 +74,7 @@ Despues de un texto normal, podemos dejar un parrafo con un ejemplo de codigo::
 El texto continua normal despues del bloquea.
 
 Bloques Doctest
-^^^^
+^^^^^^^^^^^^^^^
 
 Para los bloques de Doctest no requieren ninguna marca especial.
 
@@ -80,10 +82,10 @@ Para los bloques de Doctest no requieren ninguna marca especial.
  2
 
 Hipervinculos
-^^^^
+^^^^^^^^^^^^
 
 Enlaces externos
-````
+```````````````
 
 Podemos consultar la documentacion de uso de `restructuredtext <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ para consultar la ayuda.
 
@@ -134,3 +136,33 @@ Ahora la imagen giu.png que esta en source/static/giu.png
    :scale: 50 %
    :alt: Imagen de giu
 
+Notas de pie
+^^^^^^^^^^^^
+
+Este texto esta realizado con Sphinx [#n1]_ para realizar la documentacion.
+
+.. rubric:: Notas
+
+.. [#n1] Pueden encontrar mas informacion en Sphinx_
+
+.. _Sphinx: https://www.sphinx-doc.org
+
+
+.. Danger::
+    Cuidado con esto...
+
+.. Attention::
+    Fijense en la estructura.
+
+.. Caution::
+    Sigan alerta!
+
+.. Important::
+    Prestan atencion a esto.
+
+.. tip::
+    Este truco es resaltable.
+
+..
+   Las posibilidades son:
+   Attention, caution, danger, error, hint, important, tip, warning.

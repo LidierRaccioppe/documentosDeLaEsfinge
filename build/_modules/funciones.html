@@ -31,9 +31,10 @@
           <div class="body" role="main">
             
   <h1>Código fuente para funciones</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">doctest</span>
 <div class="viewcode-block" id="nombre_de_la_funcion">
 <a class="viewcode-back" href="../funciones.html#funciones.nombre_de_la_funcion">[documentos]</a>
-<span></span><span class="k">def</span> <span class="nf">nombre_de_la_funcion</span><span class="p">(</span><span class="n">parametro1</span><span class="p">,</span> <span class="n">parametro2</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">nombre_de_la_funcion</span><span class="p">(</span><span class="n">parametro1</span><span class="p">,</span> <span class="n">parametro2</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Funcion de ejemplo para mostar como se escriben las funciones.</span>
 
@@ -47,6 +48,25 @@
     <span class="nb">print</span><span class="p">(</span><span class="n">parametro1</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">parametro1</span><span class="o">+</span><span class="n">parametro2</span></div>
 
+
+<span class="c1"># prueba de modulo</span>
+<div class="viewcode-block" id="cuadrados">
+<a class="viewcode-back" href="../funciones.html#funciones.cuadrados">[documentos]</a>
+<span class="k">def</span> <span class="nf">cuadrados</span> <span class="p">(</span><span class="n">lista</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Funcion que hace el cuadrado de los elementos de una lista</span>
+<span class="sd">    :param lista: lista de numeros</span>
+<span class="sd">    :return: lista de cuadrados</span>
+
+<span class="sd">    &gt;&gt;&gt; lista = [1,2,3,4]</span>
+<span class="sd">    &gt;&gt;&gt; cuadrados(lista)</span>
+<span class="sd">    [1, 4, 9, 16]</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">n</span> <span class="o">**</span> <span class="mi">2</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">lista</span><span class="p">]</span></div>
+
+
+<span class="k">def</span> <span class="nf">_test</span><span class="p">():</span>
+    <span class="n">doctest</span><span class="o">.</span><span class="n">testmod</span><span class="p">()</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="n">nombre_de_la_funcion</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">nombre_de_la_funcion</span><span class="p">(</span><span class="s2">&quot;hola &quot;</span><span class="p">,</span><span class="s2">&quot;que tal&quot;</span><span class="p">))</span>

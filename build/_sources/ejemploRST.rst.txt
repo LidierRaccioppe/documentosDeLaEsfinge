@@ -5,7 +5,7 @@ Cabecera
 Parrafos
 --------
 
-Para escribir paráfos solo tenemos que escribir sin marcar. Si queremos remarcar con *cursiva*. La *negrita*es con
+Para escribir paráfos solo tenemos que escribir sin marcar. Si queremos remarcar con *cursiva*. La **negrita** es con
 doble asterisco. Para ejemplos de codigo las dobles comillas ``print("Hola Mundo")``.
 
 * No puede estar submetidos
